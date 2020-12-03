@@ -1,0 +1,36 @@
+h1{
+    color: purple;
+}
+
+p{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 100px;
+}
+
+    p::first-letter {
+        color: red;
+        font-size: 180px;
+    }
+
+.p2{
+    font-size: 20px;
+    
+}
+
+h1::before{
+    content: "Danger!";
+    background-color:black;
+    color: yellow;
+    font-weight: bold;
+    font-size: 80px;
+
+    
+  }
+
+  h1::after{
+      content: "Danger!";
+      background-color:black;
+      color: yellow;
+      font-weight: bold;
+      font-size: 80px;
+  }

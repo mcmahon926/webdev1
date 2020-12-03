@@ -1,0 +1,9 @@
+h1{
+    color: indigo;
+}
+
+.box{
+    background: red;
+    width: 40vmax;
+    height: 70vmin;
+}

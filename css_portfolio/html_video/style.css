@@ -1,0 +1,10 @@
+#mantaray{
+    background: cover; 
+    position: flex;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+

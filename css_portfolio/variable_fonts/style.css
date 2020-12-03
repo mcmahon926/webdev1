@@ -1,0 +1,30 @@
+h1{
+    color: green;
+}
+
+
+p{
+    font-family: 'Turret Road', cursive;
+    color: lightblue;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50px;
+    
+}
+
+.box2{
+    width: 250px;
+    height: 250px;
+    background: lightblue;
+    display: flex;
+    align-items: center
+    
+    
+}

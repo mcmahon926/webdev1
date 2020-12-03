@@ -1,0 +1,6 @@
+h1{
+    color: royalblue;
+    font-family: cursive;
+    font-size: clamp(3rem, 30vmin, 5rem);
+
+}
