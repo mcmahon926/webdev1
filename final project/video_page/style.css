@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* background:black; */
+    color: white;
+}
+
+/* 
+.box {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+} */
+
+
+header {
+    background:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.logo {
+    width: 90px;
+    display: block;
+    margin-left: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+nav li {
+    position: relative;
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.main-menu {
+    display: flex;
+    margin-right: 3em;
+}
+
+nav a:hover {
+    color:white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color:white;
+
+    position: absolute;
+    top: -300%;
+    width: 0%;
+
+    transition: all ease-in-out 500ms;
+
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 2px solid black;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.row {
+    
+    width: 60%;
+    height: 80%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 8px;
+}
+
+.screen{
+    width: 95vw;
+    height: 200px;
+    padding-top: 60px;
+    
+    border: 2px solid red;
+    justify-content: space-evenly;
+    margin: 15px;
+    background-size: cover;
+}
+
+#my-video{
+    height: 50vh;
+    padding-top: 100px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+

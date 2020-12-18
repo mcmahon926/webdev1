@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: black;
+    font: white;
+}
+
+
+.box {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background:seagreen;
+    height: 110px;
+
+}
+
+.logo {
+    float: left;
+    width: 13%;
+    padding: 7px 0;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    color:white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color:white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 500ms;
+
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
